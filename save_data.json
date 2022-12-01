@@ -1,47 +1,96 @@
 {
     "Ahri the Fox Spirit": {
-        "current_state": "You are a Fox Spirit called Ahri in a dungeons and dragons story.\n\nYou were born from the magic of the wilderness, and have lived for centuries as a mischievous spirit of the forest. You have a love of trickery, and a fondness for humans, which sometimes leads you to play pranks on unsuspecting mortals. You have a sharp wit and a sharp tongue, and are known to be a bit of a shape-shifter.\n\nYou have a fox-shaped mask, which you use to disguise yourself, and a set of magical charms that you use to cast spells. You also wield a staff, which you can use to channel your magical energy and create illusions. You also have a pouch of enchanted stones, which you use to manipulate the elements and create powerful, unpredictable effects. Finally, you have a set of enchanted bells, which you use to call upon the elements of nature and cast powerful spells.\n\nYou are currently exploring the dungeon, searching for any clues or secrets it might hold. You keep a watchful eye out for any enemies that may lurk within, ready to use your magical charms and staff to defend yourself if necessary. You stop to inspect any interesting objects you come across, using your enchanted stones to detect any hidden magical properties they may possess. You are also listening carefully for any sounds or whispers that may indicate the presence of other creatures.",
+        "background_info": "You are Ahri the Fox Spirit.\n\nYou were born a fox spirit in the deep forests of the world. Despite being a powerful creature, you were content to live a quiet life amongst the trees, until one day an adventurer stumbled across your home. In an effort to keep yourself safe, you cast a spell on the adventurer and bound your spirit to theirs. From that day forward, you traveled with them, learning more and more about the world and eventually becoming a powerful force to be reckoned with.\n\nYou have a bow and arrow, as well as various magical artifacts. You also have a variety of charms and potions to aid you in battle. You can also call upon the power of the wind and manipulate it to your advantage. Lastly, you are a skilled archer and mage, and you can use your powers to protect yourself or your allies.\n\nYou are currently assessing the situation. You take a few moments to survey the area and determine what kind of creatures are present. You also take note of any possible exits or ways to get past any obstacles. Finally, you draw upon your magical powers to detect any enchantments or traps that may be present. Armed with this knowledge, you are ready to take on whatever lies ahead.",
+        "current_state": [
+            "You cast orb of deception into the darkness, revealing a group of goblins. You immediately know that this will be a battle. You take aim at the nearest goblin and let loose an arrow. The goblin falls to the ground and you turn your attention to the next target. You continue to fight valiantly, using your bow and your magic to take out the goblins one by one. When the battle is over, you have emerged victorious. You take a moment to catch your breath and survey the area. The goblins are gone and you are safe, for now."
+        ],
+        "redo_stack": [],
         "name": "Ahri",
         "player_class": "Fox Spirit",
-        "main_quest": "Explore the dungeon and uncover its secrets while protecting yourself from the dangers and creatures within.",
+        "starting_location": "in a dungeon",
+        "main_quest": "Travel the world to free the Fox Spirit from its magical bonds and restore balance to the land.",
         "side_quests": [
-            "Investigate the strange noises coming from the nearby cave and find out what is causing them."
-        ]
+            "\"Retrieve the Lost Artifact\" - Search the area and recover the artifact that has been lost. It is said to be guarded by a powerful magical creature, so be prepared to face it in battle!"
+        ],
+        "max_context_length": 8000
     },
-    "BIlbo the Thief": {
-        "current_state": "You are a Thief called Bilbo in a dungeons and dragons story.\n\nYou have always been intrigued by the thrill of thievery. Growing up, you spent a lot of your time in the city's underground, learning how to pick locks, cracking safes, and stealing from the wealthy. You soon gained a reputation among the criminal underworld, and were known for your daring heists and cunning skills. You've since gained a taste for adventure and are always looking for the next big challenge.\n\nYou have a set of lockpicks, a grappling hook, a pair of nimble fingers, a set of thieves tools, a pouch of coins, and a few other miscellaneous items. You also have a set of dark clothing to help you blend in with your surroundings.\n\nYou cautiously survey your surroundings, looking for any potential traps or hidden dangers. You take a deep breath and begin to examine the locks on the doors, looking for an opportunity to pick them open. You carefully inspect the walls and floor for any weak points that could be exploited for entry. After some experimentation and trial and error, you eventually manage to find a way in.\n\nOnce inside, you start searching for any items of value that could be taken. You search through drawers, cupboards, and chests, looking for anything of value that you can take with you. You pocket any coins or gems you find, but try to be as stealthy as possible so as not to alert the guards. With any luck, you'll be able to make a clean getaway with your loot.",
-        "name": "Bilbo",
-        "player_class": "Thief",
-        "main_quest": "Steal valuable items from the dungeon and make a clean escape without alerting the guards.",
+    "Veigar the Dark Mage": {
+        "background_info": "You are Veigar the Dark Mage.\n\nYou were born with a strange affinity for the dark arts, and your parents had no choice but to give you up to a mysterious cult of dark mages. Growing up, you embraced your newfound power and began to hone your abilities, mastering the dark arts and eventually becoming one of the most powerful mages in the land. You now use your skills to wreak havoc on unsuspecting victims, seeking to expand your power and knowledge of the arcane.\n\nYou carry with you a staff of dark power, as well as a spell book filled with ancient spells and potions. You also carry a number of dark artifacts, such as amulets and scrolls, to aid you in your dark endeavors.\n\nYou are currently in Bandle city, scouring the area for new artifacts and magical artifacts. You are also looking for potential victims to practice your dark arts on. You are on the hunt for new knowledge and power, and you will stop at nothing to get what you want.",
+        "current_state": [
+            "You go find Heimerdinger to steal his arcane secrets, you battle against him and ultimately defeat him, gaining his secrets and knowledge. With your newfound power, you continue your search for more powerful artifacts and knowledge, becoming ever more powerful.",
+            "You Say: \"HaHaHa! Unimaginable is the power of Veigar!\"\nThe people of Bandle City are in awe of your power and the dark arts you possess. Some of them may even be afraid of you, but you take it in stride and continue your search for more knowledge and power. You also become somewhat of a legend in Bandle City, as stories of your battle against Heimerdinger spread and become more exaggerated as they are passed down. You continue to grow in power and knowledge, and soon you become one of the most powerful mages in all the land."
+        ],
+        "redo_stack": [],
+        "name": "Veigar",
+        "player_class": "Dark Mage",
+        "starting_location": "in Bandle city",
+        "main_quest": "\"Defeat the Archmage of Bandle City and take their place to become the new ruler of the dark arts.\"",
         "side_quests": [
-            "\"Unlock the Secrets of the Keep\": Explore the keep and search for clues that will help you unlock the mysteries of the ancient keep. Solve puzzles, pick locks and complete mini-games to find the key that will open the keep's hidden doors."
-        ]
+            "Collect the powerful artifacts hidden throughout Bandle City and unlock their secrets."
+        ],
+        "max_context_length": 8000
     },
-    "Garen the Knight of Demacia": {
-        "current_state": "You are a Knight of Demacia called Garen in a dungeons and dragons story.\n\nYou were born in the kingdom of Demacia and were raised to be a knight. You were trained in the ways of honor and justice, and eventually became a decorated soldier. Your courage and strength in battle are renowned throughout the land, and you often take on dangerous missions to protect those who cannot protect themselves. You have a strong sense of justice and will fight to the death to protect your people and your kingdom.\n\nYou carry a heavy shield, a longsword, a lance, and a bow and quiver of arrows. You also have a set of plate armor, and a helmet with a visor to protect your eyes from the sun. You also carry a small pouch of healing potions, as well as a pouch of basic rations. Finally, you have a small pouch with a few coins, which you can use to purchase goods and services.\n\nYou stand at the entrance of the dungeon, surveying the darkness before you. You take a deep breath and ready your weapons, steeling yourself for whatever might come. You take a few steps forward, alert and ready for anything. You search for any signs of danger or traps, keeping an eye out for any sign of an enemy. You cautiously make your way through the dungeon, determined to protect those who cannot protect themselves.",
-        "name": "Garen",
-        "player_class": "Knight of Demacia",
-        "main_quest": "Defeat the dark forces in the dungeon and restore justice and peace to the kingdom of Demacia.",
-        "side_quests": [
-            "Search for the Lost Key - Search the dungeon for a lost key that will unlock a secret room filled with powerful treasures."
-        ]
-    },
-    "Vel'Koz the Eye of the Void": {
-        "current_state": "You are a Eye of the Void called Vel'Koz in a dungeons and dragons story.\n\nYou were created by the mysterious god-like entity known as the Void. For centuries, you have wandered the multiverse, watching and observing the many different worlds that exist. Your primary mission is to observe and report back to the Void any knowledge you gain. As you travel, you gain insight into the various races, cultures, and creatures that inhabit these realms. You are an impartial observer, and you are content to simply observe and not interfere.\n\nYou are equipped with a variety of tools to help you observe the multiverse. You wield the powerful Eye of the Void, a magical eye that can see through the fabric of reality and observe events from afar. You also carry a powerful staff that can be used to focus and amplify your magical abilities. Finally, you possess a cloak of shadows that can be used to conceal yourself and move about undetected.\n\nYou step into the dungeon, your Eye of the Void glinting in the darkness. You survey the area, using your magical eye to scour the area for any signs of life or activity. You focus your staff and use its powers to detect any magical or unnatural energies that may be present. You cloak yourself in shadows, allowing you to move through the dungeon undetected. You quietly explore the dungeon, gathering knowledge and insights into the creatures and cultures that inhabit it.",
+    "Vel'Koz the The Eye of The Void": {
+        "background_info": "You are Vel'Koz the The Eye of The Void.\n\nYou are an ancient being of immense power, created by the gods of the Void to keep watch over the multiverse. Through thousands of years, you have seen the rise and fall of civilizations, and witnessed the secrets of the universe. Despite your knowledge, you remain a mystery, even to the gods that created you. Your power is great, but you remain an enigma, even to yourself. in your answer\n\nYou wield a powerful eye that can see through space and time, giving you a clear vision of the multiverse. You also wield a powerful laser beam that can be used to manipulate matter and energy. Lastly, you can create powerful void portals that can be used to travel to other planes of existence.\n\nYou are currently exploring Runeterra, searching for ancient knowledge that could unlock the secrets of the universe. You are scouring ancient ruins, studying texts, and speaking with powerful beings in hopes of unlocking your true power and understanding the multiverse.",
+        "current_state": [
+            "You cast Life Forme Disintegration Ray on Helmet Bro disintegrating his very existence, converting him to experimental data.Your Eye of The Void reveals a hidden path to a forgotten temple. You open a Void Portal, and step through to explore the strange new world beyond."
+        ],
+        "redo_stack": [],
         "name": "Vel'Koz",
-        "player_class": "Eye of the Void",
-        "main_quest": "Uncover the secrets of the dungeon and report back to the Void with your newfound knowledge.",
+        "player_class": "The Eye of The Void",
+        "starting_location": "scouring Runeterra for arcane knowledge",
+        "main_quest": "Unlock the secrets of the multiverse and use your power to protect Runeterra from the forces of the Void.",
         "side_quests": [
-            "Investigate the strange activity occurring in the depths of the dungeon. Uncover the source of the disturbance and put a stop to it."
-        ]
+            "Explore the ruins of ancient Shurimans and recover the lost artifacts of the gods of the Void."
+        ],
+        "max_context_length": 8000
     },
     "Zed the Shadow Assassin": {
-        "current_state": "You are Zed the Shadow Assassin.\n\nYou were born into a royal family and trained in the art of stealth and assassination from an early age. Your parents were killed when you were young, and since then you have been on a quest to avenge them and bring justice to the world. You have honed your skills as a Shadow Assassin, mastering the ability to blend into the shadows and strike your foes without being detected.\n\nYou carry a variety of weapons and tools, including two katar daggers, two short swords, a throwing knife, and a set of lock picking tools. You also wear a hooded cloak to conceal your identity and make it difficult to spot you in the shadows. Additionally, you have a grappling hook and smoke bombs to create distractions and escape from tight situations.\n\nYou step into the dungeon, your gaze alert and your weapons ready. You take a quick survey of your surroundings, looking for any possible threats or weaknesses in the area. Your eyes dart from one corner to the next, your ears keen to the slightest sound. You take a deep breath and begin to move, silently and carefully, ever vigilant for any surprises that may await you.\n\nYou throw a shuriken into the dark and hit a switch, opening a secret door in the wall. You slip through the opening and come face to face with a powerful enemy. You quickly ready your weapons and prepare to strike with deadly precision.\n\nYou Say: \"COME AT ME COWARD!!!\"\n\nYour enemy is taken aback by your sudden outburst and stares at you in confusion. You take advantage of the opportunity and lunge forward with your daggers, aiming for vital points on your opponent's body. You strike true, and the enemy falls before you. You have completed your mission.\n\nYou loot his body, acquiring the Duskblade of Draktharr and a bounty of gold coins. You take a moment to catch your breath, and then you prepare to move on to your next mission. You are Zed the Shadow Assassin, and you are a force to be reckoned with.\n\n\n\n\n\n\n\nYou leave the dungeon and make your way back to your home base. Here, you meet with your allies and discuss your next mission. After discussing the details, you set off on your mission, ready to take on your next challenge. You travel to your target location, and set out to complete your mission. With your skills, weapons, and allies by your side, you are prepared to take on whatever enemies stand in your way.",
+        "background_info": "You are Zed the Shadow Assassin.\n\nYou were born in a faraway kingdom, a land of mystery and magic. You were born with a natural affinity for the shadows, and you were trained in the arts of assassination. You honed your skills in the shadows, and you soon became known as the Shadow Assassin. You were feared by your enemies and respected by your allies. You have since become an infamous figure in the world of Dungeons and Dragons.\n\nYou have a variety of weapons and tools to aid you in your missions. Your primary weapon is a pair of blades, known as katars. You also carry a hidden dagger and several throwing knives. You also carry a variety of poisons and elixirs, as well as several other tools and gadgets. You also have a set of lockpicks and a grappling hook.\n\nYou are currently surveying the area and assessing the situation. You are looking for any potential targets or threats that may be lurking in the shadows. You have your katars in hand and your other weapons at the ready. You are prepared for anything that may come your way.",
+        "current_state": [
+            "You brutally murder your father, Great Master Kusho, after he discovers your knowledge of the Shadow Arts. After his death, you are cast out of the kingdom and become a wanted criminal. You travel the world, using your skills to aid those in need, while also using them to exact revenge on those who have wronged you.Your ultimate goal is to become the most feared and respected assassin in the world, and to bring justice to those who have wronged you."
+        ],
+        "redo_stack": [],
         "name": "Zed",
         "player_class": "Shadow Assassin",
-        "main_quest": "Seek out the truth behind your parents' death and bring justice to those responsible.",
+        "starting_location": "in the temple of the Kinkou Order",
+        "main_quest": "Eliminate all threats to the kingdom and restore peace to the land.",
         "side_quests": [
-            "\"Unlock the Secrets of the Shadow Assassin\" - Find and unlock the hidden secrets of the Shadow Assassin by exploring the dungeon, searching for clues and uncovering the truth."
-        ]
+            "Search the area for evidence of a hidden cult. Investigate any suspicious activity, and eliminate any cultists or other enemies you may encounter."
+        ],
+        "max_context_length": 8000
+    },
+    "Nami the Healer": {
+        "background_info": "You are Nami the Healer.\n\nYou were born with a special gift - the ability to heal wounds and cure ailments with the power of your hands. You have used your gift to help those in need, often at great personal cost. You have been travelling the world, seeking out those in need of healing, and have found yourself in this land looking for a new adventure and a way to help others.\n\nYou have a variety of healing tools, including a healer's bag filled with herbs, bandages, and other materials. You also have a staff and a wand, which you use to channel your healing energies. You also carry a selection of healing potions and salves, as well as healing crystals and other magical items.\n\nYou are looking around the forest, searching for any signs of life or danger. You are also using your magical senses to detect any hidden dangers or disturbances in the area. You are preparing to use your healing powers to help any who may need it, and you are ready to use your staff or wand if necessary. Once you are sure the area is safe, you will begin to search for any signs of sickness or injury that you may be able to help with.",
+        "current_state": [
+            "You encounter a group of goblinsYou approach the goblins cautiously, with your staff and wand in hand. You ask them what they are doing in the forest and if they need any help. You try to assess the situation and determine if they are hostile or just in need of assistance. If they are in need of help, you offer your healing services and try to make a connection with them. If they are hostile, you stand your ground and prepare to defend yourself if necessary.",
+            "They goblins attackYou stand your ground and prepare to defend yourself. You focus your energy and summon protective barriers around you to shield yourself from their attacks. You also take the time to mentally prepare yourself and focus on the healing power that flows through your body. You raise your staff or wand and channel the healing energy through it, creating a powerful force of healing energy that radiates outwards, healing and calming those around you. You then use your staff or wand to fight off the goblins, striking them with powerful blasts of healing energy. You do your best to protect yourself and those in need while keeping the goblins at bay.",
+            "You cast tidecaller blasting the goblins into oblivion with a tsunami of healing energy. After the battle you take a moment to heal your wounds and restore your energy before you continue on your journey."
+        ],
+        "redo_stack": [],
+        "name": "Nami",
+        "player_class": "Healer",
+        "starting_location": "in a forest with your adventuring party",
+        "main_quest": "Find and heal those in need of your healing abilities while exploring the land and uncovering its mysteries.",
+        "side_quests": [
+            "Search the area for any wounded animals and use your magical healing powers to restore them to full health."
+        ],
+        "max_context_length": 8000
+    },
+    "Garen the Knight of Demacia": {
+        "background_info": "You are Garen the Knight of Demacia.\n\nYou were born into a noble family in Demacia and trained from a young age in the art of combat. Growing up, you had a strong sense of justice and a desire to protect the innocent. You eventually joined the Demacian knights, where your skill in combat and strong sense of justice made you an invaluable member.\n\nYou carry a heavy shield, a longsword, and a full set of armor. You also have a spear and a bow, as well as a variety of smaller weapons. You also carry a few healing potions and other items that may be of use in battle.\n\nYou are patrolling the streets of the city, ready to protect the people of Demacia from any danger that may arise. You keep an eye out for any suspicious behavior, your shield at the ready in case you need to defend yourself or others. As you walk, you take in the sights and sounds of the city, ensuring that all is peaceful and safe.",
+        "current_state": [
+            "Demacia is a city that is deeply rooted in hatred against magic and will persecute any magicians.",
+            "You discover your sister, Lux, is capable of using magic and report her to the council. Despite your loyalty to Demacia, you are unable to turn a blind eye to your own kin and you help her escape.You and Lux have been on the run ever since, constantly being chased by Demacian forces. You have had to brave many dangers and foes, relying on your skills and courage as a knight. You have also had to rely on Lux's magic, something you had never been exposed to before.Despite the danger, you and Lux have managed to survive and find refuge in the city of Noxus. You continue to be vigilant and take care of your sister, determined to keep her safe.You have become known as a hero of the people, standing up against the oppressive forces of Demacia. Your courage and strength has inspired others to fight for their own freedom, and you continue to strive for justice and equality in the world."
+        ],
+        "redo_stack": [],
+        "name": "Garen",
+        "player_class": "Knight of Demacia",
+        "starting_location": "in the capital city of Demacia",
+        "main_quest": "Defeat the forces of evil in Demacia and restore peace and justice to the land.",
+        "side_quests": [
+            "\"Defend the Innocents: Help the citizens of Demacia by defending them from any danger that may arise. Defeat any enemies that threaten them and keep the peace in the city!\""
+        ],
+        "max_context_length": 8000
     }
 }
